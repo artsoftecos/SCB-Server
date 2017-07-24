@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/login")
 public class LoginController {
-	
-	
+		
 	@RequestMapping("/welcome")
 	public String loginWelcome(){
 		return "Bienvenido usuario";
